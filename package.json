@@ -1,0 +1,30 @@
+{
+  "name": "middle-click",
+  "version": "0.0.1",
+  "description": "Detecting middle click",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rendalf/middle-click"
+  },
+  "bugs": {
+    "url": "https://github.com/Rendalf/middle-click/issues"
+  },
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "lab test"
+  },
+  "keywords": [
+    "middle",
+    "click"
+  ],
+  "author": "ar.lipatov93@yandex.ru",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "lab": "^11.1.0",
+    "webpack": "^1.13.3"
+  }
+}

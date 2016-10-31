@@ -11,14 +11,14 @@ It is useful for SPA.
 
 ```
 import { isMiddleClick } from 'middle-click';
-// or const isMiddleClick = require('middle-click');
+// or const { isMiddleClick } = require('middle-click');
 
 someElement.addEventListener('click', event => {
   ...
   if (isMiddleClick(event)) {
     doOpenInNewWindow();
   } else {
-    doOpenInThisWinodw();
+    doOpenInThisWindow();
   }
 });
 ```
